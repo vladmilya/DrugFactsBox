@@ -1,0 +1,221 @@
+/*
+	Theme Name: DrugFactBox (HTML5 Blank)
+	Description: DrugFactBox theme
+	Version: 1.0
+	Author: Rightapplications
+	Tags: Blank, HTML5, CSS3
+
+*/
+
+/*Cover*/
+
+.intro{	
+	/*position:absolute;
+    top:0;
+	z-index:200;*/
+ 	/*min-height: 100.2%;
+	height:100.2%;*/
+	width:100%;
+    background-color:#ccc;
+}
+.backsheet{
+	width:100%;
+	z-index:1;
+
+}
+.cover-on{
+    position: fixed;
+}
+
+/*Slider*/
+.carousel-1-mobile{
+margin-top:100px!important;
+}
+/* - */
+
+/* Condition Filter */
+.close-x{
+    font-size:16pt;
+}
+/* - */
+
+/*Trial tables*/
+.slide-effects{
+    overflow-x: auto;
+}
+.descriptionCell{
+    min-width:200px;
+}
+
+.table-1se td:nth-child(1){
+font-size:20px!important;
+}
+
+/*  */
+
+/*Text Blocks*/
+.title-body{
+    margin-bottom: 3px!important;
+}
+.content-block{
+    overflow-x: auto;
+}
+/* - */
+
+.registrationComment{
+margin-top: 0px;
+}
+
+/*  Drug bottle  */
+@media (max-width: 1199px) {
+    .product-packaging h2{
+        font-size: 26px;
+    }
+}
+/* - */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .drug-block-1c h3 {
+    font-size: 26px!important;
+}
+.drug-block-1c p {
+    font-size: 12px!important;
+}
+}
+
+/*Footer*/
+.menu-footer-menu-container{
+    text-align: center;
+    margin-bottom:20px;
+}
+
+.menu-footer-menu-container ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+.menu-footer-menu-container ul li{
+    display:inline;
+}
+
+.menu-footer-menu-container ul li a{
+    color: #004f77;
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Tahoma,sans-serif;
+}
+
+.menu-footer-menu-container ul li a:hover, .menu-footer-menu-container ul li.current-menu-item a{
+    color: #3889b5;
+}
+
+/* pagination
+---------------------------*/
+.pagination-1{
+	text-align:center;
+}
+.pagination {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	border:none;
+    margin: 10px 0 60px 0;
+}
+
+.pagination > li > a, 
+.pagination > li > span.arrows {
+    background-color: #eee;
+    border: none;
+    color: #333;
+	font-size:16px;
+	font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	padding:6px 15px;
+}
+.pagination > li > a{
+	margin-right:1px;
+}
+.pagination > li:first-child > a, 
+.pagination > li:first-child > span,
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+    border-bottom-right-radius:0;
+    border-top-right-radius:0;
+    border-bottom-left-radius:0;
+    border-top-left-radius:0;
+}
+.pagination li span .fa{
+	font-size:20px;
+}
+
+.pagination > li > a:hover, 
+.pagination > .active > a, 
+.pagination > .active > a:hover, 
+.pagination > .active > a:focus{
+	border-right:1px solid #fff;
+}
+
+
+
+.pagination > li > a:hover,
+.pagination > li span.current, 
+.pagination > .active > a,
+.pagination > .active > a:hover,  
+.pagination > .active > a:focus{
+    background-color: #333;
+	border:none;
+    color: #fff;
+}
+.pagination > li > a,
+.pagination > li > a:hover,
+.pagination > .active > a:hover,  
+.pagination > .active > a:focus{
+	border-right:1px solid #fff;
+}
+.pagination > li span.current:hover{
+background-color: #333;
+    color: #fff;
+    border-right:2px solid #fff;
+}
+.pagination > li span.current{
+border-right:2px solid #fff;
+}
+.pagination > li:first-child > a{
+	margin-right:10px;
+}
+.pagination > li:last-child > a{
+	margin-left:9px;
+}
+/* end pagination
+--------------------------- */
+
+.filterItem{display:inline}
+
+.page-content{
+ margin-bottom: 60px;
+}
+.page-content hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #333 -moz-use-text-color -moz-use-text-color;
+    border-image: none;
+    border-style: solid none none;
+    border-width: 1px 0 0;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.jq-selectbox .dropdown{
+    height:202px;
+}
+
+.in1-top .pdf-link a{
+    border-bottom:none;
+}
+.in1-top .pdf-link a:hover{
+    border-bottom:none;
+}
